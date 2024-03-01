@@ -1,4 +1,5 @@
 #!/bin/bash
+source ~/.bashrc
 
 function write_log() {
   local filepath=$1
