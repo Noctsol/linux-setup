@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Summary:
-# This is a script that just a bunch of the installs I normally use 
+# This is a script that just a bunch of the installs I normally use
 # on ubuntu machines. I got tired of blowing up my VMs and going through
 # This manually. I'm wondering at this point if I just use NixOS.
 
@@ -181,13 +181,13 @@ function install_standard_apt_pkg() {
 write_log $lf "START Script"
 
 write_log $lf "Running apt update/upgrade"
-sudo apt update -y && sudo apt upgrade -y 
+sudo apt update -y && sudo apt upgrade -y
 
 install_standard_apt_pkg
 
 # Installs that need APT repos or downloaded binaries
 install_rust
-install_golang "1.22.0"
+install_golang "1.23.6"
 # change_golang_version "1.22.0"
 install_kubectl
 install_dotnet "8.0"
