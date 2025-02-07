@@ -138,6 +138,7 @@ function install_terraform() {
     sudo tee /etc/apt/sources.list.d/hashicorp.list
     sudo apt update -y
     sudo apt install terraform -y
+    brew install tfenv
   else
     write_log $lf "SKIPPING - Terraform installed"
     echo $(terraform -version)
