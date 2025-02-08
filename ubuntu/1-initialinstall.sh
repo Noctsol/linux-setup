@@ -15,7 +15,9 @@ sudo apt install -y openssh-server \
     build-essential  \
     procps \
     file \
-    git
+    git \
+    python3-venv \
+    python3-pip
 
 echo "---------------"
 echo "> Installing VS code via snadp"
