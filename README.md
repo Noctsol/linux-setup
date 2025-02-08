@@ -1,17 +1,17 @@
 # linux-setup
-Contains the things I install immediately on linux machines
+Contains the things I install immediately on linux machines (particularly ubuntu)
 
 ### All known directories interacting with env/path
 ```sh
 # (this is the one you really care about)
-/etc/profile  
+/etc/profile
 
 # Others
 /etc/bash.bashrc
 /etc/bash_profile
 ~/.bashrc
 ~/.profile
-/etc/environment 
+/etc/environment
 ```
 
 ### Default Path
